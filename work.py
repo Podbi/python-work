@@ -79,4 +79,4 @@ formatter = Formatter('https://youtrack.dev.comet.estate/issue/')
 output = formatter.format(result['tasks'], result['total']) 
 writer.write('work.html', output)
 
-print('Totally: %s tasks calculated with total time: %s' % (str(len(result['tasks'])
+print('Totally: %s tasks calculated with total time: %s' % (str(len(result['tasks'])), str(result['total'])))
